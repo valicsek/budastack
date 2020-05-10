@@ -2,7 +2,7 @@
     div
       Nav
       div.max-w-6xl.mx-auto.py-20.px-5.text-center(class="lg:py-20 lg:px-0")
-        h1.text-6xl.font-bold UI, Cloud, Javascript, Development.
+        h1.text-4xl.font-bold(class="lg:text-6xl") UI, Cloud, Javascript, Development.
         p.text-2xl.font-thin.mt-5 If you need a <span class="underline">Fullstack</span> developer, then
         button.border.rounded-full.px-10.py-2.mt-5.font-bold Hire me
       div.max-w-6xl.mx-auto.px-5(class="lg:py-10 lg:px-0")
