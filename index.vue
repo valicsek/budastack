@@ -1,7 +1,7 @@
 <template lang="pug">
     div
       Nav
-      div.max-w-6xl.mx-auto.py-20.px-5(class="lg:px-0")
+      div.max-w-6xl.mx-auto.py-10.px-5(class="lg:py-20 lg:px-0")
         h1.text-center Web development and technologies
         p.text-center I can help you with the following <span class="underline">technologies:</span>
         .flex.overflow-x-scroll
@@ -23,13 +23,13 @@
 
       div.min-h-screen.max-w-6xl.mx-auto.py-5.px-5(class="lg:px-0")
         h2 Some content
-        .bg-gray-200.p-2.grid.grid-cols-1.grid-rows-2.grid-flow-row.gap-2(class="sm:grid-cols-2 lg:grid-cols-3")
+        .bg-gray-200.p-2.grid.grid-cols-1.grid-rows-1.grid-flow-row.gap-2(class="sm:grid-cols-2 lg:grid-cols-3")
           Card(
-            tag='vue'
-            v-for="blog of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,,16,17,18,19,20]"
-            title='How to find out user location?'
-            content='This is an example sentence from the techtinal content'
-            link='/blog/example3')
+            v-for="blog of $site.pages.filter(i => i.regularPath.includes('/blog/'))"
+            :tag='blog.frontmatter.tag'
+            :title="blog.frontmatter.title"
+            :content='blog.frontmatter.description'
+            :link='blog.path')
       Footer
 </template>
 <script>

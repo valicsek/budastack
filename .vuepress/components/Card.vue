@@ -4,7 +4,7 @@
         .card-body
             a(:href='link').text-2xl.font-bold {{ title }}
             p {{ content }}
-            span.text-xs {{ tag }}
+            // span.block.text-xs {{ tag }} 
 </template>
 
 <script>
@@ -24,7 +24,7 @@ export default {
     }
 
     .card-body {
-        @apply p-10;
+        @apply p-8;
     }
 }
 </style>
