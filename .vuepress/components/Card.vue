@@ -15,7 +15,7 @@ export default {
 
 <style lang="styl">
 .card {
-    @apply bg-white;
+    @apply bg-white shadow-md;
     min-width: 320px;
 
     img {

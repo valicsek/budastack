@@ -10,8 +10,6 @@
               div.border.p-10(style="height:fit-content;")
                 h2.text-center About Budastack
                 p Budastack is a ...
-              div.border.p-10.mt-5
-                h2 Providers
         Footer
 </template>
 

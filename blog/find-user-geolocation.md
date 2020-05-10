@@ -9,7 +9,7 @@ layout: BlogLayout
 
 ![](https://www.webdesignerdepot.com/cdn-origin/uploads/2019/06/featured_ipgeolocationapi.png)
 
-Determination of the geolocation is a cool thing. You can use it a lot of times, for example, you are creating a website where you want to offer pizza shops near to the user.
+Determination of the geolocation is a cool thing. You can use it a lot of times, for example, when you are creating a website where you want to offer pizza shops near to the user.
 
 To determine the geolocation you have two possibilities:
 - Find out via Geolocation API
