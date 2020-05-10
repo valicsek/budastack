@@ -2,8 +2,7 @@ module.exports = {
   title: "Budastack",
   description: "Just playing around",
   postcss: {
-    plugins: [require("tailwindcss")("./tailwind.config.js"), 
-    // require("autoprefixer")
+    plugins: [require("tailwindcss")("./tailwind.config.js"), require("autoprefixer")
   ],
   },
   plugins: {
