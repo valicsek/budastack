@@ -1,0 +1,51 @@
+<template lang="pug">
+    div
+      Nav
+      div.max-w-6xl.mx-auto.py-20.px-5(class="lg:px-0")
+        h1.text-center Web development and technologies
+        p.text-center I can help you with the following <span class="underline">technologies:</span>
+        .flex.overflow-x-scroll
+          img.w-24.h-24.mr-10(src='https://miro.medium.com/max/800/1*Pk2mZo1cBqfVqQi-mtAkuA.png' alt='vue')
+          img.w-24.h-24.mr-10(src='https://webpack.js.org/dcd5e077cf9f54ebe52d4f7ebe8c3080.png' alt='webpack')
+          img.w-24.h-24.mr-10(src='https://cdn.iconscout.com/icon/free/png-256/docker-226091.png' alt='docker')
+          img.w-24.h-24.mr-10(src='https://images.opencollective.com/typeorm/00c882e/logo/256.png' alt='typeorm')
+          img.w-24.h-24.mr-10(src='https://cdn.iconscout.com/icon/free/png-256/nodejs-2-226035.png' alt='nodejs')
+          img.w-24.h-24.mr-10(src='https://cdn.iconscout.com/icon/free/png-256/sass-226054.png' alt='sass')
+          img.w-24.h-24.mr-10(src='https://d2m06gn7cjwia2.cloudfront.net/express.png' alt='express node')
+          img.w-24.h-24.mr-10(src='https://vectorified.com/images/aws-icon-png-19.png' alt='amazon s3 static file storage')
+          img.w-24.h-24.mr-10(src='https://i1.wp.com/www.macbed.com/wp-content/uploads/2019/04/69721.png?w=620&ssl=1' alt='framer x')
+          img.w-24.h-24.mr-10(src='https://cdn.iconscout.com/icon/free/png-256/bootstrap-226077.png' alt='bootstrap css framework')
+          img.w-24.h-24.mr-10(src='https://d2.alternativeto.net/dist/icons/bulma_95302.png?width=128&height=128&mode=crop&upscale=false' alt='bulma css framework')
+          img.w-24.h-24.mr-10(src='https://images.opencollective.com/tailwindcss/5cfb17e/logo/256.png' alt='tailwind css')
+          img.w-24.h-24.mr-10(src='https://cdn.iconscout.com/icon/free/png-256/gulp-3-1175163.png' alt='gulp js')
+          img.w-24.h-24.mr-10(src='https://cdn.iconscout.com/icon/free/png-256/sencha-282968.png' alt='sencha ext js')
+        p.text-xs.text-gray-400 Scroll right to see more
+
+      div.min-h-screen.max-w-6xl.mx-auto.py-5.px-5(class="lg:px-0")
+        h2 Some content
+        .bg-gray-200.p-2.grid.grid-cols-1.grid-rows-2.grid-flow-row.gap-2(class="sm:grid-cols-2 lg:grid-cols-3")
+          Card(
+            tag='vue'
+            v-for="blog of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,,16,17,18,19,20]"
+            title='How to find out user location?'
+            content='This is an example sentence from the techtinal content'
+            link='/blog/example3')
+      Footer
+</template>
+<script>
+import Nav from "./.vuepress/components/Nav";
+import Footer from "./.vuepress/components/Footer";
+import Card from "./.vuepress/components/Card";
+
+export default {
+  components: {
+    Nav,
+    Footer,
+    Card
+  },
+};
+</script>
+
+<style lang="stylus">
+@import './.vuepress/theme/styles/theme.styl';
+</style>
