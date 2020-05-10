@@ -2,7 +2,7 @@
     div
       Nav
       div.max-w-6xl.mx-auto.py-10.px-5(class="lg:py-20 lg:px-0")
-        h1.text-center Web development and technologies
+        h1.text-center.text-3xl Web development and technologies
         p.text-center I can help you with the following <span class="underline">technologies:</span>
         .flex.overflow-x-scroll
           img.w-24.h-24.mr-10(src='https://miro.medium.com/max/800/1*Pk2mZo1cBqfVqQi-mtAkuA.png' alt='vue')
@@ -21,8 +21,8 @@
           img.w-24.h-24.mr-10(src='https://cdn.iconscout.com/icon/free/png-256/sencha-282968.png' alt='sencha ext js')
         p.text-xs.text-gray-400 Scroll right to see more
 
-      div.min-h-screen.max-w-6xl.mx-auto.py-5.px-5(class="lg:px-0")
-        h2 Some content
+      div.max-w-6xl.mx-auto.py-5.px-5(class="lg:px-0")
+        h2.text-3xl.mb-5 Maybe you might be interested
         .bg-gray-200.p-2.grid.grid-cols-1.grid-rows-1.grid-flow-row.gap-2(class="sm:grid-cols-2 lg:grid-cols-3")
           Card(
             v-for="blog of $site.pages.filter(i => i.regularPath.includes('/blog/'))"

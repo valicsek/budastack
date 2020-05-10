@@ -6,4 +6,9 @@ module.exports = {
     // require("autoprefixer")
   ],
   },
+  plugins: {
+    'disqus': {
+      shortname: 'budastack'
+    }
+  }
 };

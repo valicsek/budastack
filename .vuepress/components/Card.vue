@@ -3,7 +3,7 @@
         // img.w-full(src='https://via.placeholder.com/300')
         .card-body
             a(:href='link').text-2xl.font-bold {{ title }}
-            p {{ content }}
+            p.mt-2 {{ content }}
             // span.block.text-xs {{ tag }} 
 </template>
 
