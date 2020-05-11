@@ -28,7 +28,7 @@
       section.pt-20
         div.max-w-5xl.mx-auto.px-5(class="lg:px-0")
           h2.text-6xl.text-center.mb-5 Designs
-        .flex.overflow-x-scroll
+        .flex.overflow-x-scroll.h-64(class="md:h-auto")
           img(loading="lazy" src="/images/spotify.png")
           img(loading="lazy" src="/images/measurement.png")
       section.bg-black.py-20
