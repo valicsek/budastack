@@ -3,22 +3,40 @@
 @tailwind utilities
 
 h1 {
-    @apply text-5xl font-bold
+    @apply text-5xl font-bold;
+    letter-spacing: -2px;
 }
 h2 {
-    @apply text-4xl font-bold
+    @apply text-4xl font-bold;
+    letter-spacing: -1px;
 }
 h3 {
-    @apply text-3xl font-bold
+    @apply text-3xl font-bold;
 }
 p {
-    font-size: 21px
-}
-
-img {
-    @apply mx-auto my-5
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .header-anchor {
     display: none
+}
+
+@font-face {
+    font-family: SansPro;
+    src: url(/font/sf_pro_heavy.otf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: SansPro;
+    src: url(/font/sf_pro_light.otf);
+    font-weight: 200;
+    font-style: 200;
+}
+
+html, body {
+    font-family: SansPro, sans-serif;
+    line-height: 1.1;
 }
