@@ -1,7 +1,8 @@
 ---
 title: How to Find the User Geolocation Using Javascript?
 description: It can be useful to find out where the user located.
-tag: javascript
+tags: [javascript, geolocation]
+date: 2019-05-10
 layout: BlogLayout
 ---
 

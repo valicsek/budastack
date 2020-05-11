@@ -1,6 +1,7 @@
 ---
 title: Pixel Perfect
 description: Pixel perfect
-tag: server
+tags: [server]
+date: 2019-05-10
 layout: BlogLayout
 ---

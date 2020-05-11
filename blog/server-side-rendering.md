@@ -1,7 +1,8 @@
 ---
 title: Server Side Rendering
 description: The server side rendering gives you a basic understanding of how these things are work
-tag: server
+tags: [server, rendering]
+date: 2019-05-10
 layout: BlogLayout
 ---
 

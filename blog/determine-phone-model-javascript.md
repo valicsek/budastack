@@ -1,7 +1,8 @@
 ---
 title: Determine the Model of the Phone Using Javascript
 description: This short page will demonstrate some examples how to determine the model of the phone using javascript
-tag: javascript
+date: 2019-05-10
+tags: [javascript, phone, model]
 layout: BlogLayout
 ---
 
