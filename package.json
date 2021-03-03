@@ -6,7 +6,7 @@
     "autoprefixer": "^9.7.6",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "tailwindcss": "^1.4.4"
   },
